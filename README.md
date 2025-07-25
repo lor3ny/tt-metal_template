@@ -9,6 +9,7 @@ This project is built to give a general template to build TT-Metalium applicatio
 ### Requirements
 
 - `TT-Metal` is required to use TT-Metalium, before compiling your project you need to compile tt-metal [(instructions over here)](https://github.com/tenstorrent/tt-metal/blob/main/INSTALLING.md)
+- CMake greater than 3.5, for compatibility with TT-Metal
 - In my tt-metal version, the API is compiled using clang++-17. To compile your project you need to use the same compiler of tt-metal, in the case of this repo clang++-17.
 
 ### TT-Metal Building
@@ -39,11 +40,9 @@ Now tt-metal API can be accessed be an external project.
 
 1. Clone this repository
 ```sh
-git clone https://github.com/lor3ny/stecil_wormhole
-cd stecil_wormhole
+git clone https://github.com/lor3ny/tt-metal_template
+cd tt-metal_template
 ```
-
-The template is inside the folder ```tt-metal_compilation_template``` 
 
 2. Run cmake
 ```sh
