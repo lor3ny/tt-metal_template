@@ -1,6 +1,6 @@
 # Compilation Temaplate for Tenstorrent Cards
 
-*The project is compiled with the following tt-metal commit [91e61c006a9c1900ec90aee8e0898f69574bae04](https://github.com/tenstorrent/tt-metal/commit/53d4192a5bb07df8ae8da5f2ff8ca60967d9118b)*
+*The project is compiled with the tt-metal commit of 24 July 2025, the repo changes everyday this template require adaptation*
 
 This project is built to give a general template to build TT-Metalium applications using [tt-metal](https://github.com/tenstorrent/tt-metal) repo as an external API.
 
